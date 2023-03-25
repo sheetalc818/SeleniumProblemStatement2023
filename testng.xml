@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/dell/Documents/QADevPrograms/CFP216_Automation">
+        <classes>
+<!--            <class name="com.bridgelabz.test.DatePicker">-->
+<!--                <methods>-->
+<!--                    <include name="testDAtePicker"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.bridgelabz.test.FirstScript">
+                <methods>
+                    <include name="webinarScreen"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.JavascriptExecutorDemo">
+                <methods>
+                    <include name="demo"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.LocatorsDemo">
+                <methods>
+                    <include name="demoLocators"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.MultiSelectDemo">
+                <methods>
+                    <include name="multiSelect_YesOrNo"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.SelectClassDemo">
+                <methods>
+                    <include name="navigateOnFacebookLoginScreen_Sccess"/>
+                    <include name="redirectOnToFbScreen_IdDisplayedImg"/>
+                    <include name="createScreen"/>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.test.WindowHandling">
+                <methods>
+                    <include name="getWindowAndHandleIt"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
