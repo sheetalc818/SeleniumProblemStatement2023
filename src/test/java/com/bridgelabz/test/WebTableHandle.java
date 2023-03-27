@@ -4,9 +4,6 @@ import com.bridgelabz.base.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
-import java.text.NumberFormat;
-import java.text.ParseException;
 import java.util.List;
 
 public class WebTableHandle extends BaseClass {
