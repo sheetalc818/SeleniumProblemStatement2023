@@ -33,7 +33,7 @@ public class BaseClass {
         //driver.get("https://demos.telerik.com/kendo-ui/datetimepicker/index");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        report = new ExtentReports("C:\\Users\\dell\\Documents\\QADevPrograms\\CFP216_Automation\\ExtentReportResults.html");
+        report = new ExtentReports("C:\\Users\\Admin\\Documents\\QADevPrograms\\SeleniumProblemStatement2023\\ExtentReportResults.html");
         test = report.startTest("ExtentDemo");
     }
 
