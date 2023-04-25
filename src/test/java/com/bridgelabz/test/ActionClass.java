@@ -9,12 +9,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import java.awt.*;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
 public class ActionClass extends BaseClass {
 
     @Test
-    public void demoAction() throws InterruptedException {
+    public void demoAction() {
         driver.get("https://www.facebook.com/");
 
         WebElement username = driver.findElement(By.id("email"));
@@ -29,15 +30,30 @@ public class ActionClass extends BaseClass {
     }
 
     @Test
-    public void scroll() throws InterruptedException {
-        driver.get("https://www.facebook.com/");
+    public void scrollPage() throws InterruptedException, AWTException {
+        driver.get("https://www.amazon.com/");
         Actions actions = new Actions(driver);
-//        actions.keyDown(Keys.CONTROL).sendKeys(Keys.END).build().perform();
-//        Thread.sleep(1000);
-//        actions.keyUp(Keys.CONTROL).sendKeys(Keys.END).build().perform();
-        actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+        actions.keyDown(Keys.CONTROL).sendKeys(Keys.END).build().perform();
         Thread.sleep(1000);
-        actions.sendKeys(Keys.PAGE_UP).build().perform();
+        actions.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).build().perform();
+        //actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+        Thread.sleep(1000);
+        //actions.sendKeys(Keys.PAGE_UP).build().perform();
+    }
+
+    @Test
+    public void robotClass() throws AWTException, InterruptedException {
+        driver.get("https://www.amazon.com/");
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_PAGE_DOWN);
+        robot.keyRelease(KeyEvent.VK_PAGE_DOWN);
+        Thread.sleep(1000);
+        robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
+        robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
+
+        robot.mouseWheel(5);
+        robot.mouseMove(290,76);
+        Thread.sleep(1000);
     }
 
     @Test
