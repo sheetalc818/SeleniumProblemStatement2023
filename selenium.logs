@@ -1,8 +1,8 @@
-14:19:32,638  INFO com.bridgelabz.base.BaseClass<strong>{1}</strong>:39 - Browser Initialised
-14:19:32,767 ERROR com.bridgelabz.base.BaseClass<strong>{1}</strong>:46 - Maximize Window
-14:19:37,695  INFO com.bridgelabz.base.BaseClass<strong>{1}</strong>:53 - Tear Down of Browser
-14:19:37,738 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-14:19:37,738 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-14:19:37,739 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-14:19:37,739 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-14:19:37,740 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:03:02,316  INFO com.bridgelabz.base.BaseClass<strong>{1}</strong>:38 - Browser Initialised
+11:03:02,452 ERROR com.bridgelabz.base.BaseClass<strong>{1}</strong>:45 - Maximize Window
+11:03:09,737  INFO com.bridgelabz.base.BaseClass<strong>{1}</strong>:52 - Tear Down of Browser
+11:03:09,847 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+11:03:09,847 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+11:03:09,849 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:03:09,849 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:03:09,849 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Admin/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

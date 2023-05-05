@@ -26,7 +26,6 @@ public class BaseClass extends ReadPropertiesFile{
     public static ExtentTest test;
     public static ExtentReports report;
     public static Logger log = Logger.getLogger(BaseClass.class.getName());
-
     @BeforeMethod
     public void setUp(){
         PropertyConfigurator.configure("C:\\Users\\Admin\\Documents\\QADevPrograms\\SeleniumProblemStatement2023\\log4j.properties");
